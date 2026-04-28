@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ Status Bar Widgets"
+  short_description: "Build and review IntelliJ status bar widgets."
+  default_prompt: "Use $intellij-status-bar-widgets to implement or review IntelliJ Platform plugin code around status bar widgets."
