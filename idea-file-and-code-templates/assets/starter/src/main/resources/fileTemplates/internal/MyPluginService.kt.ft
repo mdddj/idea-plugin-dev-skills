@@ -1,0 +1,10 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")
+package ${PACKAGE_NAME}
+#end
+
+import com.intellij.openapi.components.Service
+
+@Service(Service.Level.PROJECT)
+class ${NAME} {
+    fun isEnabled(): Boolean = true
+}

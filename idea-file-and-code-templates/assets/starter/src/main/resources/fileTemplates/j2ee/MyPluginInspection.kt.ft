@@ -1,0 +1,18 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")
+package ${PACKAGE_NAME}
+#end
+
+import com.intellij.codeInspection.LocalInspectionTool
+import com.intellij.codeInspection.ProblemsHolder
+import com.intellij.psi.PsiElementVisitor
+import com.intellij.psi.PsiFile
+
+class ${NAME} : LocalInspectionTool() {
+    override fun buildVisitor(holder: ProblemsHolder, isOnTheFly: Boolean): PsiElementVisitor {
+        return object : PsiElementVisitor() {
+            override fun visitFile(file: PsiFile) {
+                // TODO implement inspection logic
+            }
+        }
+    }
+}

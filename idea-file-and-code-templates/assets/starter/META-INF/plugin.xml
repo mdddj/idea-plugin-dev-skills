@@ -1,0 +1,15 @@
+<idea-plugin>
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTemplateGroup implementation="com.example.myplugin.templates.MyTemplateGroupFactory"/>
+    <internalFileTemplate name="MyPluginService.kt" subject="My Plugin Service"/>
+    <defaultTemplatePropertiesProvider implementation="com.example.myplugin.templates.MyTemplatePropertiesProvider"/>
+  </extensions>
+
+  <actions>
+    <action
+        id="com.example.myplugin.CreateMyPluginServiceAction"
+        class="com.example.myplugin.templates.CreateMyPluginServiceAction"
+        text="My Plugin Service"
+        description="Create a plugin service from a bundled template"/>
+  </actions>
+</idea-plugin>
