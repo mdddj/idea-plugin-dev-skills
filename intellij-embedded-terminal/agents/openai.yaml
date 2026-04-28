@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ Embedded Terminal"
+  short_description: "Build and debug IntelliJ embedded terminal plugins."
+  default_prompt: "Use $intellij-embedded-terminal to implement or review IntelliJ Platform plugin code around the Embedded Terminal API."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ File and Class Choosers"
+  short_description: "Guidance for IntelliJ chooser dialogs and browse fields"
+  default_prompt: "Use $intellij-file-and-class-choosers to add a file, class, package, or browse chooser to my plugin."
