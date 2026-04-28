@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ Editor Components"
+  short_description: "Build and debug IntelliJ editor-embedded UI fields"
+  default_prompt: "Use $intellij-editor-components to implement or review IntelliJ editor-backed text fields and completions."
