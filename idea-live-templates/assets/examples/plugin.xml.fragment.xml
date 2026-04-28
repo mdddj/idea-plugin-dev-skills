@@ -1,0 +1,7 @@
+<extensions defaultExtensionNs="com.intellij">
+  <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
+  <liveTemplateContext
+      implementation="com.example.livetemplates.MarkdownContext"
+      contextId="MARKDOWN"/>
+  <liveTemplateMacro implementation="com.example.livetemplates.TitleCaseMacro"/>
+</extensions>

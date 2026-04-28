@@ -1,0 +1,5 @@
+src/main/kotlin/com/example/livetemplates/MarkdownContext.kt
+src/main/kotlin/com/example/livetemplates/TitleCaseMacro.kt
+src/main/resources/liveTemplates/Markdown.xml
+src/main/resources/messages/LiveTemplates.properties
+src/main/resources/META-INF/plugin.xml
