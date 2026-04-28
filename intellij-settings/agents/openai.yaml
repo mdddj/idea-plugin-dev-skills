@@ -1,0 +1,3 @@
+interface:
+  display_name: "IntelliJ Settings"
+  short_description: "Help with IntelliJ plugin settings tasks"
