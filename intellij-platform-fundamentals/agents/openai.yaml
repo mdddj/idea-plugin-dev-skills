@@ -1,0 +1,3 @@
+interface:
+  display_name: "IntelliJ Platform Fundamentals"
+  short_description: "Apply IntelliJ plugin lifetime, threading, and messaging rules."
