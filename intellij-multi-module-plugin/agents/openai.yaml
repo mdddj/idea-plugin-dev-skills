@@ -1,0 +1,4 @@
+interface:
+  display_name: "IntelliJ Multi-Module Plugin"
+  short_description: "Reference multi-module IntelliJ plugin patterns"
+  default_prompt: "Use $intellij-multi-module-plugin to design or update an IntelliJ Platform plugin with required and optional content modules."
