@@ -6,7 +6,7 @@
 
 ## 仓库说明
 
-- 当前包含: `28` 个顶层 skill 目录
+- 当前包含: `29` 个顶层 skill 目录
 
 ## 顶层目录与功能模块
 
@@ -30,6 +30,7 @@
 | `intellij-inlay-hints` | Inlay Hints 模块，覆盖参数提示、声明式 hints、Code Vision、预览文件和扩展点注册。 |
 | `intellij-lists-and-trees` | 列表与树模块，覆盖 `JBList`、`Tree`、速度搜索、渲染器、`ToolbarDecorator` 和可排序结构。 |
 | `intellij-misc-swing-components` | IntelliJ 杂项 Swing 组件模块，覆盖 `Messages`、`JBSplitter`、`JBTabs`、工具栏等常用 UI 基础件。 |
+| `intellij-multi-module-plugin` | 多模块 IntelliJ 插件模块，覆盖 Plugin Model v2 content module、required/optional 加载和 Gradle 子项目打包。 |
 | `intellij-platform-fundamentals` | IntelliJ Platform 基础规则模块，覆盖 service 生命周期、`Disposable` / `Disposer`、读写动作、EDT/BGT 线程模型、modality 和 Message Bus。 |
 | `intellij-plugin-internationalization` | 国际化模块，覆盖 `DynamicBundle`、NLS 注解、资源包、模板翻译和插件 UI 文本本地化。 |
 | `intellij-popups` | Popup 模块，覆盖 `JBPopupFactory`、列表弹窗、动作弹窗、自定义组件弹窗和定位方式。 |
@@ -57,5 +58,5 @@
 
 - 如果需求是“生成 UI / 做设置页 / 做工具窗口”，优先看 `idea-jewel-skill`、`idea-kotlin-dsl2-skill`、`intellij-tool-windows`、`intellij-dialog-wrapper`。
 - 如果需求是“编辑器增强”，优先看 `idea-intention-preview`、`idea-live-templates`、`idea-postfix-completion`、`intellij-inlay-hints`、`intellij-reference-contributor`。
-- 如果需求是“平台集成”，优先看 `intellij-platform-fundamentals`、`intellij-extension-points`、`intellij-action-system`、`intellij-project-view`、`intellij-settings`、`intellij-embedded-terminal`、`intellij-virtual-file-system`。
+- 如果需求是“平台集成”，优先看 `intellij-platform-fundamentals`、`intellij-extension-points`、`intellij-action-system`、`intellij-multi-module-plugin`、`intellij-project-view`、`intellij-settings`、`intellij-embedded-terminal`、`intellij-virtual-file-system`。
 - 如果需求是“体验优化和界面细节”，优先看 `intellij-icons`、`intellij-informing-users`、`intellij-popups`、`intellij-ui-faq`、`intellij-status-bar-widgets`。

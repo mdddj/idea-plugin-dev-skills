@@ -6,7 +6,7 @@ A curated collection of Codex skills for IDEA and IntelliJ Platform plugin devel
 
 ## Repository Overview
 
-- Contains `28` top-level skill directories.
+- Contains `29` top-level skill directories.
 
 ## Top-Level Skills
 
@@ -30,6 +30,7 @@ A curated collection of Codex skills for IDEA and IntelliJ Platform plugin devel
 | `intellij-inlay-hints` | Parameter hints, declarative hints, Code Vision, preview files, and extension point registration. |
 | `intellij-lists-and-trees` | `JBList`, `Tree`, speed search, renderers, `ToolbarDecorator`, and sortable structures. |
 | `intellij-misc-swing-components` | Common IntelliJ Swing components such as `Messages`, `JBSplitter`, `JBTabs`, and toolbars. |
+| `intellij-multi-module-plugin` | Multi-module IntelliJ plugins with Plugin Model v2 content modules, required/optional loading, and Gradle subproject packaging. |
 | `intellij-platform-fundamentals` | Service lifetimes, `Disposable` / `Disposer`, read/write actions, EDT/BGT threading, modality, and Message Bus. |
 | `intellij-plugin-internationalization` | `DynamicBundle`, NLS annotations, resource bundles, template translation, and plugin UI text localization. |
 | `intellij-popups` | `JBPopupFactory`, list popups, action popups, custom component popups, and popup placement. |
